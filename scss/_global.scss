@@ -82,3 +82,13 @@ p.lead {
     }
   }
 }
+
+.skills-refs {
+
+  li {
+    &:hover {
+      color: $primary;
+    }
+  }
+
+}
