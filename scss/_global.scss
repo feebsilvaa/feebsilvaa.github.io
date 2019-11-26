@@ -1,5 +1,9 @@
 // Global styling for this template
 
+a {
+  color: $gold !important;
+}
+
 body {
   @include body-font;
   padding-top: 54px;
@@ -77,4 +81,18 @@ p.lead {
       color: $primary;
     }
   }
+}
+
+.skills-refs {
+
+  li {
+    &:hover {
+      color: $primary;
+    }
+  }
+
+}
+
+.text-gold {
+  color: $gold;
 }
