@@ -7,8 +7,14 @@
   .navbar-toggler {
     &:focus {
       outline-color: lighten($primary, 15%);
+      // outline-color: lighten($primary, 90%);
+      // outline-color: $gold;
     }
   }
+}
+
+.navbar-toggler-icon {
+  background-image: $navbar-dark-toggler-icon-bg;
 }
 
 @media (min-width: 992px) {
