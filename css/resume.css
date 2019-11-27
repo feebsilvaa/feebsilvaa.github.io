@@ -105,6 +105,10 @@ p.lead {
   outline-color: #ebb624;
 }
 
+.navbar-dark .navbar-toggler-icon {
+  outline-color: #b38710;
+}
+
 @media (min-width: 992px) {
   #sideNav {
     text-align: center;
